@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html class="light" lang="vi"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Huyên Xuân - Gia Dụng Chính Hãng &amp; Sửa Chữa Tận Nhà 24/7</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "outline-variant": "#c1c6d5",
+                      "on-primary-fixed-variant": "#00458e",
+                      "inverse-primary": "#aac7ff",
+                      "on-tertiary-container": "#8fffad",
+                      "surface-dim": "#d9dadb",
+                      "on-secondary-container": "#603100",
+                      "tertiary-fixed": "#6bfe9c",
+                      "secondary-container": "#fd8b00",
+                      "surface-tint": "#005cba",
+                      "surface-container-highest": "#e1e3e4",
+                      "on-surface-variant": "#414753",
+                      "on-primary-container": "#dfe8ff",
+                      "tertiary": "#005d2d",
+                      "surface": "#f8f9fa",
+                      "surface-container-high": "#e7e8e9",
+                      "primary": "#004e9f",
+                      "surface-variant": "#e1e3e4",
+                      "outline": "#727784",
+                      "on-background": "#191c1d",
+                      "on-tertiary-fixed": "#00210c",
+                      "error": "#ba1a1a",
+                      "on-secondary-fixed": "#2f1500",
+                      "primary-fixed-dim": "#aac7ff",
+                      "error-container": "#ffdad6",
+                      "on-primary-fixed": "#001b3e",
+                      "surface-container-lowest": "#ffffff",
+                      "on-tertiary": "#ffffff",
+                      "background": "#f8f9fa",
+                      "primary-container": "#0066cc",
+                      "secondary-fixed": "#ffdcc3",
+                      "on-error-container": "#93000a",
+                      "on-secondary-fixed-variant": "#6e3900",
+                      "tertiary-container": "#00783d",
+                      "tertiary-fixed-dim": "#4ae183",
+                      "surface-container": "#edeeef",
+                      "on-error": "#ffffff",
+                      "on-tertiary-fixed-variant": "#005228",
+                      "secondary": "#904d00",
+                      "surface-container-low": "#f3f4f5",
+                      "inverse-on-surface": "#f0f1f2",
+                      "on-primary": "#ffffff",
+                      "primary-fixed": "#d7e3ff",
+                      "surface-bright": "#f8f9fa",
+                      "on-secondary": "#ffffff",
+                      "on-surface": "#191c1d",
+                      "secondary-fixed-dim": "#ffb77d",
+                      "inverse-surface": "#2e3132"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "margin-desktop": "40px",
+                      "gutter": "24px",
+                      "container-max": "1280px",
+                      "unit": "8px",
+                      "margin-mobile": "16px"
+              },
+              "fontFamily": {
+                      "body-lg": ["Hanken Grotesk"],
+                      "display-lg": ["Hanken Grotesk"],
+                      "title-lg": ["Hanken Grotesk"],
+                      "headline-md": ["Hanken Grotesk"],
+                      "display-lg-mobile": ["Hanken Grotesk"],
+                      "label-md": ["Hanken Grotesk"],
+                      "body-sm": ["Hanken Grotesk"]
+              },
+              "fontSize": {
+                      "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                      "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                      "title-lg": ["20px", { "lineHeight": "28px", "fontWeight": "600" }],
+                      "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                      "display-lg-mobile": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+                      "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700" }],
+                      "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }]
+              }
+            }
+          }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined.fill {
+            font-variation-settings: 'FILL' 1;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #004e9f 0%, #fd8b00 100%);
+        }
+        .ambient-shadow {
+            box-shadow: 0 4px 20px rgba(0, 26, 51, 0.08);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-lg antialiased">
+<!-- TopNavBar -->
+<nav class="bg-primary dark:bg-primary-container docked full-width top-0 sticky z-50 shadow-md">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto h-20">
+<a class="text-headline-md font-display-lg text-on-primary dark:text-on-primary-container tracking-tight shrink-0" href="#">
+                Huyên Xuân
+            </a>
+<div class="hidden md:flex flex-1 max-w-md mx-8">
+<div class="relative w-full">
+<input class="w-full h-10 pl-4 pr-10 rounded-full border-0 bg-surface-container-lowest text-on-surface placeholder:text-outline focus:ring-2 focus:ring-secondary-container text-body-sm font-body-sm" placeholder="Tìm kiếm sản phẩm, dịch vụ..." type="text"/>
+<button class="absolute right-3 top-1/2 -translate-y-1/2 text-outline hover:text-primary transition-colors">
+<span class="material-symbols-outlined">search</span>
+</button>
+</div>
+</div>
+<div class="hidden md:flex items-center gap-6">
+<a class="text-secondary-fixed font-bold border-b-2 border-secondary-fixed pb-1 font-label-md text-label-md hover:text-secondary-fixed transition-colors duration-200" href="#">Trang Chủ</a>
+<a class="text-on-primary-container dark:text-primary-fixed opacity-90 font-label-md text-label-md hover:text-secondary-fixed transition-colors duration-200" href="#">Sản Phẩm</a>
+<a class="text-on-primary-container dark:text-primary-fixed opacity-90 font-label-md text-label-md hover:text-secondary-fixed transition-colors duration-200" href="#">Dịch Vụ Sửa Chữa</a>
+<a class="text-on-primary-container dark:text-primary-fixed opacity-90 font-label-md text-label-md hover:text-secondary-fixed transition-colors duration-200" href="#">Đổi Gas Nhanh</a>
+<a class="text-on-primary-container dark:text-primary-fixed opacity-90 font-label-md text-label-md hover:text-secondary-fixed transition-colors duration-200" href="#">Tin Tức</a>
+<a class="text-on-primary-container dark:text-primary-fixed opacity-90 font-label-md text-label-md hover:text-secondary-fixed transition-colors duration-200" href="#">Liên Hệ</a>
+</div>
+<div class="flex items-center gap-4 text-on-primary dark:text-on-primary-container shrink-0">
+<div class="hidden lg:flex flex-col items-end mr-2">
+<span class="text-[10px] uppercase font-bold tracking-wider opacity-80">Hotline 24/7</span>
+<span class="font-bold font-body-lg">0900-123-456</span>
+</div>
+<button class="scale-95 active:scale-90 transition-transform hover:text-secondary-fixed relative">
+<span class="material-symbols-outlined">shopping_cart</span>
+<span class="absolute -top-2 -right-2 bg-secondary-container text-on-primary text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center">3</span>
+</button>
+<button class="scale-95 active:scale-90 transition-transform hover:text-secondary-fixed">
+<span class="material-symbols-outlined">person</span>
+</button>
+<button class="md:hidden scale-95 active:scale-90 transition-transform">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</nav>
+<!-- Main Content -->
+<main>
+<!-- 1. Hero Banner -->
+<section class="relative w-full overflow-hidden hero-gradient text-on-primary py-20 lg:py-32">
+<div class="absolute inset-0 opacity-10 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCI+PHBhdGggZD0iTTAgMGg0MHY0MEgweiIgZmlsbD0ibm9uZSIvPjxjaXJjbGUgY3g9IjIwIiBjeT0iMjAiIHI9IjEiIGZpbGw9IiNmZmZmZmYiLz48L3N2Zz4=')]"></div>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="flex flex-col items-start gap-6">
+<div class="inline-flex items-center gap-2 bg-surface-container-lowest/20 backdrop-blur-sm rounded-full px-4 py-2 border border-surface-container-lowest/30">
+<span class="material-symbols-outlined fill text-tertiary-fixed">verified</span>
+<span class="font-label-md text-label-md text-on-primary">Uy Tín - Chất Lượng - Tận Tâm</span>
+</div>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-primary leading-tight">
+                        Gia Dụng Chính Hãng <br/>
+<span class="text-secondary-fixed">Sửa Chữa Tận Nhà 24/7</span>
+</h1>
+<p class="font-body-lg text-body-lg text-primary-fixed-dim max-w-lg">
+                        Huyên Xuân cung cấp thiết bị gia dụng cao cấp và dịch vụ bảo trì chuyên nghiệp. Giải pháp toàn diện cho ngôi nhà hiện đại của bạn.
+                    </p>
+<div class="flex flex-wrap items-center gap-4 mt-4">
+<button class="bg-secondary-container hover:bg-secondary text-on-primary font-title-lg text-title-lg px-8 py-4 rounded-full transition-colors ambient-shadow flex items-center gap-2">
+                            Xem sản phẩm
+                            <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+<button class="bg-surface-container-lowest hover:bg-surface-dim text-primary font-title-lg text-title-lg px-8 py-4 rounded-full transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined">build</span>
+                            Đặt lịch sửa chữa
+                        </button>
+</div>
+<div class="flex items-center gap-6 mt-8">
+<div class="flex items-center gap-2">
+<div class="w-10 h-10 rounded-full bg-surface-container-lowest/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-secondary-fixed">assignment_turned_in</span>
+</div>
+<span class="font-label-md text-label-md">Miễn phí kiểm tra</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-10 h-10 rounded-full bg-surface-container-lowest/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-tertiary-fixed">shield</span>
+</div>
+<span class="font-label-md text-label-md">Bảo hành chính hãng</span>
+</div>
+</div>
+</div>
+<div class="relative hidden lg:block">
+<div class="absolute inset-0 bg-primary-container rounded-full blur-3xl opacity-50"></div>
+<img alt="Modern kitchen appliances" class="relative z-10 w-full h-[500px] object-cover rounded-2xl ambient-shadow border-4 border-surface-container-lowest/20" data-alt="A pristine, modern kitchen setup featuring gleaming stainless steel appliances including a high-end refrigerator, gas stove, and range hood. The lighting is bright and inviting, emphasizing the clean lines and premium quality of the equipment. The setting conveys a sense of reliability and contemporary home living, matching a sophisticated retail aesthetic with subtle cool blue and warm orange ambient tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtCumNyxQ96lPlfKbhrG3RW6HDJzRuZg1t6i7DCW4VdhB149eg6oJ0KaHq90BPeD5t2HCeZy3fA8FhPyeH0Lr_qiwbsKt7QDYidhjAtQp4TuteNZqdVa3oj0l5CyC_Y9b1TM2xrct1r1OHz4Ac2IMsi2KbTGA3-H0GNJt-qzizmBdJUu5eKqhusDuaLRPVUAeOYd1S6GUZbE9lG8HCl-SnaJ_S3qodV17Kyx51oByebjw6_eCeqoWDsATtaWGMrDgwmWsVoPeZKts"/>
+<!-- Floating Badge -->
+<div class="absolute -bottom-6 -left-6 z-20 glass-card p-4 rounded-xl flex items-center gap-4 ambient-shadow">
+<div class="w-12 h-12 bg-secondary-container rounded-full flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined fill">support_agent</span>
+</div>
+<div>
+<div class="font-label-md text-label-md text-on-surface-variant">Hỗ trợ khẩn cấp</div>
+<div class="font-title-lg text-title-lg text-primary">Có mặt sau 30p</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-highest dark:bg-inverse-surface full-width border-t border-outline-variant">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-mobile md:px-margin-desktop py-12 max-w-container-max mx-auto">
+<div class="col-span-1 md:col-span-1 flex flex-col gap-4">
+<a class="text-title-lg font-display-lg text-primary dark:text-primary-fixed tracking-tight" href="#">Huyên Xuân</a>
+<p class="font-body-sm text-body-sm text-on-surface-variant dark:text-outline">
+                    Chuyên cung cấp thiết bị gia dụng chính hãng và dịch vụ bảo trì, sửa chữa tận nhà uy tín, chuyên nghiệp.
+                </p>
+<div class="flex gap-4 mt-2">
+<a class="w-10 h-10 rounded-full bg-surface flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-colors" href="#"><span class="material-symbols-outlined">social_leaderboard</span></a>
+<a class="w-10 h-10 rounded-full bg-surface flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-colors" href="#"><span class="material-symbols-outlined">play_circle</span></a>
+</div>
+</div>
+<div class="col-span-1 flex flex-col gap-3">
+<h3 class="font-title-lg text-title-lg text-on-surface dark:text-inverse-on-surface mb-2">Dịch Vụ</h3>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed-dim transition-colors opacity-80 hover:opacity-100" href="#">Sửa chữa điện lạnh</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed-dim transition-colors opacity-80 hover:opacity-100" href="#">Đổi gas nhanh</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed-dim transition-colors opacity-80 hover:opacity-100" href="#">Bảo dưỡng định kỳ</a>
+</div>
+<div class="col-span-1 flex flex-col gap-3">
+<h3 class="font-title-lg text-title-lg text-on-surface dark:text-inverse-on-surface mb-2">Hỗ Trợ</h3>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed-dim transition-colors opacity-80 hover:opacity-100" href="#">Về chúng tôi</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed-dim transition-colors opacity-80 hover:opacity-100" href="#">Chính sách bảo hành</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed-dim transition-colors opacity-80 hover:opacity-100" href="#">Hướng dẫn mua hàng</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed-dim transition-colors opacity-80 hover:opacity-100" href="#">Liên hệ</a>
+</div>
+<div class="col-span-1 flex flex-col gap-3">
+<h3 class="font-title-lg text-title-lg text-on-surface dark:text-inverse-on-surface mb-2">Liên Hệ</h3>
+<div class="flex items-start gap-2 text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-primary text-sm mt-0.5">location_on</span>
+<span>123 Đường Nguyễn Trãi, Quận Thanh Xuân, Hà Nội</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm mt-2">
+<span class="material-symbols-outlined text-primary text-sm">phone</span>
+<span class="font-bold text-primary">0900-123-456</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm mt-2">
+<span class="material-symbols-outlined text-primary text-sm">mail</span>
+<span>support@huyenxuan.vn</span>
+</div>
+</div>
+</div>
+<div class="border-t border-outline-variant/30 py-6 text-center">
+<p class="font-body-sm text-body-sm text-on-surface-variant opacity-80">
+                © 2024 Huyên Xuân Home Appliances. All rights reserved.
+            </p>
+</div>
+</footer>
+<!-- Floating Action Buttons -->
+<div class="fixed bottom-6 right-6 flex flex-col gap-4 z-50">
+<a class="w-14 h-14 bg-error hover:bg-on-error-container text-on-error rounded-full flex items-center justify-center ambient-shadow transition-transform hover:scale-110 group relative" href="tel:0900123456">
+<span class="material-symbols-outlined fill">call</span>
+<span class="absolute right-full mr-4 bg-surface-container-lowest text-on-surface font-label-md px-3 py-1.5 rounded-lg shadow-md opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">Gọi khẩn cấp</span>
+</a>
+<a class="w-14 h-14 bg-primary hover:bg-primary-container text-on-primary rounded-full flex items-center justify-center ambient-shadow transition-transform hover:scale-110 group relative" href="#">
+<span class="material-symbols-outlined fill">forum</span>
+<span class="absolute right-full mr-4 bg-surface-container-lowest text-on-surface font-label-md px-3 py-1.5 rounded-lg shadow-md opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">Chat Zalo</span>
+</a>
+</div>
+</body></html>
